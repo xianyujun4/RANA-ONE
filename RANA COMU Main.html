@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./RANA COMU Style.css">
+
+        <title>
+            RANA COMU
+        </title>
+
+        <style>
+
+            @font-face {
+                font-family: fontmushin;
+                src: url(./mushin.otf);
+            }
+
+            @font-face {
+                font-family: fontROG;
+                src: url(./ROGFonts-Regular.otf);
+            }
+
+            @font-face {
+                font-family: fontyumindb;
+                src: url(./yumindb.ttf);
+            }
+
+            @font-face {
+                font-family: fonthelveti;
+                src: url(./HELVETI1-1.ttf);
+            }
+
+        </style>
+
+        <style>
+            html,body{margin: 0;padding: 0;}
+        </style>
+        
+        <style>
+.headbackground {
+    background:linear-gradient(135deg,rgb(195, 0, 255) 0%,rgb(98,63, 255) 51%,rgb(0,125,255) 100%);
+    height: 200%;
+    width: 100%;
+}
+
+.QAbackground {
+    background:linear-gradient(135deg,rgb(255, 153, 0) 0%,rgb(230,142,1275) 51%,rgb(205, 131, 255) 100%)
+}
+
+.briefintroductionbackground {
+    background-image: url(https://s21.ax1x.com/2025/05/20/pExwqII.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    filter: blur(1.5px);
+}
+
+.webheadbackground {
+    background-color: white;
+    height: 80px;
+}
+
+.ranabackground {
+    background-image: url(https://s21.ax1x.com/2025/05/22/pExOMBF.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+}
+
+.ranacatbackground {
+    width: 70%;
+    opacity: 0.75;
+    filter: blur(5px);
+}
+
+.QAbackgroundRANA {
+    background-image: url(https://s21.ax1x.com/2025/05/22/pExOKnU.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--------------------背景区--------------------*/
+
+.fontserif {
+    font-family: serif;
+}
+
+.fontArial {
+    font-family: Arial;
+}
+
+.fontmushin {
+    font-family: fontmushin;
+}
+
+.fontROG {
+    font-family: fontROG;
+}
+
+.fontyumindb {
+    font-family: fontyumindb;
+}
+
+.fonthelveti {
+    font-family: fonthelveti;
+}
+
+/*--------------------字体区--------------------*/
+
+.QAcontent {
+    font-size: 20px;
+}
+
+.Maincontent {
+    font-size: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.box-model {
+    padding: 0px;
+    margin: 0px;
+}
+
+.adaptivestretching {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonhover {
+    background-color: rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.buttonstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding:auto;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.buttonstyleproduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding:auto;
+    margin-top:15%;
+    text-decoration: underline;
+}
+
+.introductionfontcneter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
+
+.headbox {
+    display: flow-root;
+    width: 90;
+}
+
+.ranahead {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.headword {
+    overflow: hidden;
+    display: flex;
+}
+
+.smalltitleword {
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+}
+
+.titleword {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.QAbox {
+    display: flow-root;
+}
+
+.QARANA {
+    float: right;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.footer {
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 11px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+}
+
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #666;
+}
+
+
+.footerright {
+    text-align: right;
+    color: #444;
+}
+
+.authorandversion {
+    font-weight: 600;
+    color: #333;
+}
+
+.notice {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+/*--------------------试验区--------------------*/
+
+</style>
+
+    </head>
+
+    <body class="box-model">
+
+        <div class="webheadbackground " style="float: inline-end;width: 100%;"> <!--页眉-->
+
+            <div  class="ranabackground" style="width: 400px;height:80px;float: left;">
+            </div>
+
+            <div style="width: 420px;height: 80px;float: right;">
+                
+                <div style= "width: 100px;height: 80px;float: left;" class="text-center">
+                    
+                    <button style="font-size: 20px; padding: 8px 16px;" class="buttonstyle">
+
+                        <a href="https://darling-oz.xyz:16668/RANA%20COMU%20Main.html" style="text-decoration: none; color: #000000; font-size: 15px;">
+                            主页
+                            HOME
+                        </a>
+
+                    </button> 
+
+                </div>
+
+                <div style="width: 20px;height: 80px;float: inherit;">
+
+                </div>
+
+                <div style="width: 100px;height: 80px;float: inherit;">
+                    
+                    <button style="font-size: 20px; padding: 8px 16px;" class="buttonstyle">
+
+                        <a href="https://darling-oz.xyz:16668/RANA%20COMU%20About.html" style="text-decoration: none; color: #000000; font-size: 15px;">
+                            关于
+                            ABOUT
+                        </a>
+
+                    </button>
+
+                </div>
+
+                <div style="width: 100px;height: 80px;float: inherit;">
+
+                    <button style="font-size: 20px; padding: 8px 16px;" class="buttonstyle">
+
+                        <a href="https://darling-oz.xyz:16668/RANA%20COMU%20News.html" style="text-decoration: none; color: #000000; font-size: 15px;">
+                            新闻
+                            NEWS
+                        </a>
+
+                    </button>
+
+                </div>
+
+                <div style="width: 100px;height: 80px;float: inherit;">
+
+                    <button style="font-size: 20px; padding: 8px 16px;" class="buttonstyleproduct">
+
+                        <a href="https://darling-oz.xyz:16668/RANA%20COMU%20Product.html" style="text-decoration: none; color: #000000; font-size: 14px;">
+                            产品
+                            PRODUCT
+                        </a>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="headbox headbackground">
+
+            <img src="https://s21.ax1x.com/2025/05/22/pExOanO.jpg" alt="RANAHEAD" class="ranahead">
+            
+            <div class="headword">
+
+                <h1>
+                    
+                   <br>
+                   <br>
+                   <br>
+
+                    <span class="titleword">
+                        乐奈通讯
+                    </span>
+
+                    <p class="smalltitleword">
+                        让无信号成为过去式
+                    </p>
+
+                </h1>
+
+            </div>
+
+        </div>
+
+        <div class="text-center" style="position: relative;"> <!--小猫图片段-->
+
+            <img src="https://s21.ax1x.com/2025/05/20/pExwqII.jpg"  alt="RANA And Cat" class="ranacatbackground" >
+            
+            <b class="fonthelveti introductionfontcneter" style="top: 45%;font-size: 45px;">
+                中微子通讯概念先行者
+            </b>
+
+            <b class="fonthelveti introductionfontcneter" style="top: 55%;font-size: 20px;">
+                Pioneer Of Neutrino Communication Concept
+            </b>
+
+        </div>
+
+        <div class="QAbox QAbackgroundRANA"> <!--问答父容器-->
+
+            <div class="QAbackground" style="width: 50%;float: left;"> <!--问答文字-->
+            
+                <div class="text-center">
+
+                    <b style="font-size: 35px;" class="text-center box-model fontArial">
+                        简介
+                    </b><br><br>
+
+                </div>
+
+                <a class="QAcontent fonthelveti">
+                    ●基于要乐奈(Rana Kaname)和猫开发的通讯平台
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●平台成员来自
+                </a>
+
+                <strong class="QAcontent fonthelveti">
+                        月ノ森女子学園
+                </strong>
+
+                <a class="QAcontent fonthelveti">
+                    等高级学府
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●与
+                </a>
+
+                <b class="QAcontent fonthelveti">
+
+                    <a href="https://saki.mobi">
+                        大祥移动(SAKI.MOBI)
+                    </a>
+
+                </b>
+
+                <a class="QAcontent fonthelveti">
+                    等多家运营商长期合作
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●拥有
+                </a>
+
+                <a class="QAcontent fonthelveti del opacity">
+                    数十年
+                </a>
+
+                <a class="QAcontent fonthelveti">
+                    数十秒的丰厚运营经验
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●首次提出
+                </a>
+
+                <strong class="QAcontent fonthelveti" style="color: red;">
+                    "世界互联，中微子通讯"
+                </strong>
+
+                <a class="QAcontent fonthelveti">
+                    概念
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●拥有企业级通讯专利1000余项
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●使用新一代
+                </a>
+
+                <strong class="QAcontent fonthelveti" style="color: blue;">
+                    中微子传话技术
+                </strong>
+
+                <a class="QAcontent fonthelveti">
+                    ,无论用户处于南
+                </a><br>
+
+                <a class="QAcontent fonthelveti">
+                    &nbsp;&nbsp;极洲、无人荒岛亦是太平洋中心都不再与世界断联
+                </a><br><br>
+
+                <a class="QAcontent fonthelveti">
+                    ●曾为 It's MyGo!!!!!! 和 Ave Mujica 等多个知名乐
+                </a><br>
+
+                <a class="QAcontent fonthelveti">
+                    &nbsp;&nbsp;队的演唱会提供应急通信服务
+                </a><br><br>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <div class="footerleft">
+
+                <div class="notice">
+                    非营利性网站，仅供娱乐
+                </div>
+
+                <div class="notice">
+                    图片来源于网络
+                </div>
+
+            </div>
+        
+            <div class="footerright">
+
+                <div class="authorandversion">
+                    Powered by 
+
+                    <span style="color: #00ccff">
+                        Xianyujun4
+                    </span>
+
+                </div>
+
+                <div class="authorandversion">
+                    Version 0.0.1 | Build 2025
+                </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+    
+</html>
