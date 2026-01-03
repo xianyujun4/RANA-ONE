@@ -1,0 +1,747 @@
+.headbackground {
+    background:linear-gradient(135deg,rgb(195, 0, 255) 0%,rgb(98,63, 255) 51%,rgb(0,125,255) 100%);
+    height: 200%;
+    width: 100%;
+}
+
+.QAbackground {
+    background:linear-gradient(135deg,rgb(255, 153, 0) 0%,rgb(230,142,1275) 51%,rgb(205, 131, 255) 100%)
+}
+
+.briefintroductionbackground {
+    background-image: url(https://s21.ax1x.com/2025/05/20/pExwqII.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    filter: blur(1.5px);
+}
+
+.webheadbackground {
+    background-color: white;
+    height: 80px;
+}
+
+.ranabackground {
+    background-image: url(./LOGO.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+}
+
+.ranacatbackground {
+    width: 70%;
+    opacity: 0.75;
+    filter: blur(5px);
+}
+
+.QAbackgroundRANA {
+    background-image: url(./无标题.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--------------------背景区--------------------*/
+
+.fontserif {
+    font-family: serif;
+}
+
+.fontArial {
+    font-family: Arial;
+}
+
+.fonthelveti {
+    font-family: fonthelveti;
+}
+
+/*--------------------字体区--------------------*/
+
+.QAcontent {
+    font-size: 10;
+}
+
+.Maincontent {
+    font-size: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.box-model {
+    padding: 0px;
+    margin: 0px;
+}
+
+.adaptivestretching {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonhover {
+    background-color: rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.buttonstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding:auto;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.buttonstyleproduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding:auto;
+    margin-top:15%;
+    text-decoration: underline;
+}
+
+.introductionfontcneter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
+
+.headbox {
+    display: flow-root;
+    display: flex;
+    align-items: center;
+    width: 90;
+}
+
+.ranahead {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.headword {
+    overflow: hidden;
+}
+
+.smalltitleword {
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+}
+
+.titleword {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+
+.QARANA {
+    margin: auto;
+    object-fit: contain;
+    float: left;
+    width: 35%;
+    max-height: 10%;
+}
+
+.footer {
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #666;
+}
+
+
+.footerright {
+    text-align: right;
+    color: #444;
+}
+
+.authorandversion {
+    font-weight: 600;
+    color: #333;
+}
+
+.notice {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.QAbox {
+    display: flow-root;
+    width: 90;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+}
+
+
+.Introductionbutton {
+    border: none;
+    background: transparent;
+    background-color: rgba(191, 185, 245, 0.0);
+    border: #666 1px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.QAword {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 45%; 
+    margin-left: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    border:2px solid;
+    border-color: rgb(205, 131, 255);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .QAbox {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .QARANA {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .QAword {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .aboutself-introductionbox{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .aboutself-introductionword{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.line {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.newsbuttonleft {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.content {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.newsbutton {
+    flex: 0 0 60px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.newsbuttonback{
+    background-color: skyblue;
+}
+
+.newsbuttonbackq {
+    background-color: red;
+}
+
+/*--------------------美化区（交由AI生产）--------------------*/
+
+.menu-container {
+    height: 80px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-buttons {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-button {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-button a {
+    display: block;
+    position: relative;
+    padding: 12px 0;
+    color: #4a5568;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 
+        color 0.3s ease,
+        transform 0.2s ease;
+}
+
+.nav-button:hover a {
+    color: #6b46c1;
+    transform: translateY(-2px);
+}
+
+.nav-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(98, 63, 255, 0.1) 0%,
+        rgba(191, 185, 245, 0.05) 100%
+    );
+    border-radius: 8px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-button:hover::before {
+    width: 110%;
+}
+
+.nav-button.active a {
+    color: #623fff;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(98, 63, 255, 0.1);
+}
+
+.nav-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(
+        90deg,
+        #623fff 0%,
+        #3b82f6 100%
+    );
+    transform: translateX(-50%);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(98, 63, 255, 0.2);
+}
+
+.nav-button:active::after {
+    animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%) scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-50%) scale(2);
+    }
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+/*--------------------Product区--------------------*/
+
+.proheadbackground {
+    background-image: url(./Producthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    background-position-y: center;
+}
+
+.GHOSTcontentback {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background:linear-gradient(135deg,rgb(0, 0, 0) 0%,rgb(56, 54, 54) 51%,rgb(255, 255, 255) 100%);
+    display: flow-root;
+}
+
+.GHOSTcontentRANAback {
+    background-image: url(./RANATRAN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+/*--------------------Product background区--------------------*/
+
+.protitle {
+    font-size: 100px;
+    color: blue;
+    width: 100%;
+    text-align: center;
+}
+
+.proheadbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.protitle {
+    font-size: 45px;
+    color: #ff5e00;
+    text-align: center;
+    width: 100%;
+}
+
+.procontentbox {
+    align-items: center;
+    background:linear-gradient(180deg,rgb(0, 0, 0) 0%,rgb(56, 54, 54) 51%,rgb(255, 255, 255) 100%);
+    display: flow-root;
+}
+
+.procontenttitle {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.Partnersboxs {
+    display: flex;
+    justify-content: center;
+}
+
+.GHOSTItitle {
+    font-size: 100px;
+    margin: 0;
+    color: white;
+    font-family: helvertica;
+}
+
+.GHOSTbox {
+    float: inline-start;
+    width: 100%;
+}
+
+.GHOSTcontent {
+    font-size: 20px;
+}
+
+.GHOSTcontentpic {
+    float: right;
+    width: 50%;
+    margin: auto;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.GHOSTcontentwordbox {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    padding-top: 0;
+}
+
+.GHOSTcontentbox {
+    width: 100%;
+    display: flow-root;
+}
+
+.GHOSTcontentbor {
+    border: #2600ff 2px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-bottom: 1%;
+}
+
+.GHOSTitbox {
+    display: flow-root;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Speed {
+    float: right;
+    width: 15%;
+    margin: 0 2% 0 32%;
+    object-fit: contain;
+}
+
+.GHOSTitword {
+    font-size: 30px;
+    color: blue;
+    padding-left: 15px;
+    border-left: 3px solid #007bff;
+}
+
+.GHOSTbutton {
+    border: none;
+    background-color: rgba(25, 0, 255, 0);
+    border: #333 1px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.Distance {
+    float: right;
+    width: 15%;
+    margin: 0 2% 0 32%;
+    object-fit: contain;
+}
+
+.btn-cn {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-en {
+    font-size: 20px;
+    color: white;
+}
+
+.GHOSTTi {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*--------------------News 区--------------------*/
+.newsheadbackground {
+    background-image: url(./Newshead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    background-position-y: center;
+}
+
+/*--------------------News back区--------------------*/
+
+.Newsheadbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.Newstitle {
+    font-size: 50px;
+    color: white;
+}
+
+.Newscontentbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.Newscontent{
+    width: 100%;
+    border-bottom: rgb(243, 241, 234) 5px solid;
+    border-top: rgb(243, 241, 234) 5px solid;
+    background-color: white;
+}
+
+.Newscontenttext {
+    font-size: 15px;
+    margin: 0 5% 0 5%;
+}
+
+.Newstime {
+    font-size: 10px;
+    color: grey;
+}
+
+.Newsbutton {
+    border: none;
+    background-color: rgba(25, 0, 255, 0);
+    font-size: 35px;
+}
+
+.newscontentlink {
+    color: black;
+    text-decoration: none;
+}
+
+.Newspagebox {
+    width: 80%;
+    margin: 10% 10% 10% 10%;
+}
+
+.newspageTitle {
+    font-size: 40px;
+    color: black;
+}
+
+.newspageContenttext {
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.newspagewriter {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    font-size: 10px;
+    color: grey;
+    text-decoration: underline;
+}
+
+.newspageprevious {
+    margin-top: 2%;
+    font-size: 15px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+/*--------------------About区--------------------*/
+
+.aboutheadbackground {
+    background-image: url(./Abouthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    background-position-y: center;
+}
+
+/*--------------------About back区--------------------*/
+
+.aboutheadbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.abouttitle {
+    font-size: 50px;
+    color: white;
+}
+
+.abouttell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abouttelltext{
+    font-size: 20px;
+
+}
+
+.aboutself-introductionbox{
+    display: flow-root;
+    width: 90;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    background-color: wheat;
+}
+
+.aboutself-introductionword{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 45%; 
+    margin-left: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+.aboutself-introductiontext{
+    font-size: 20px;
+}
+
+.aboutRANACOMUcreatebox{
+    text-align: center;
+    width: 100%;
+}
+
+.aboutRANACOMUcreatetext{
+    font-size: 20px;
+}
+
+.aboutRANACOMUcreatebox2{
+    text-align: center;
+    width: 100%;
+}
+
+.tous{
+    width: 100%;
+    float: right;
+}
