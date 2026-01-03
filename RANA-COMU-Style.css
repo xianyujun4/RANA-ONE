@@ -22,7 +22,7 @@
 }
 
 .ranabackground {
-    background-image: url(./RANA-ONE/LOGO.jpg);
+    background-image: url(./LOGO.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 2%;
@@ -35,7 +35,7 @@
 }
 
 .QAbackgroundRANA {
-    background-image: url(./RANA-ONE/无标题.png);
+    background-image: url(./无标题.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
